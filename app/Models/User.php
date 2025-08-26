@@ -20,5 +20,9 @@ class User extends Authenticatable
         'full_name',
         'profession',
         'description',
+        'email',
+        'phone',
+        'address',
+        'photo',
     ];
 }
