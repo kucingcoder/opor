@@ -17,21 +17,17 @@ class User extends Authenticatable
     protected $fillable = [
         'username',
         'password',
-        'full_name',
+        'name',
         'profession',
         'description',
         'email',
         'phone',
         'address',
         'photo',
+        'remember_token',
     ];
 
     protected $hidden = [
         'password',
     ];
-
-    public function getAuthIdentifierName()
-    {
-        return 'username';
-    }
 }
