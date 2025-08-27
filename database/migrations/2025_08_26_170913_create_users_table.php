@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('full_name', 64);
             $table->string('profession', 32);
             $table->string('description', 300);
-            $table->string('email', 64);
+            $table->string('email', 255);
             $table->string('phone', 16);
             $table->string('address', 128);
             $table->string('photo', 32);
